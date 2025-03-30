@@ -7,22 +7,31 @@ redirect_from:
   - /about.html
 ---
 
-<span style="font-size: 8px; font-family: 'Arial';">
-I am a PhD candidate in the Department of Computer Science at the University of Toronto, supervised by Prof. Gerald Penn. I completed my undergraduate degree at UofT as well, where I was awarded the **Rose Sheinin Award** (UofT's highest-performing female student graduating from a science program) and was nominated for the **Governor General’s Silver Medal** (highest academic standing at the UofT).</span>
+<div style="font-size: 8px; font-family: 'Arial';">
+I am a PhD candidate in the Department of Computer Science at the University of Toronto, supervised by Prof. Gerald Penn. I completed my undergraduate degree at UofT as well, where I was awarded the <strong>Rose Sheinin Award</strong> (UofT's highest-performing female student graduating from a science program) and was nominated for the <strong>Governor General’s Silver Medal</strong> (highest academic standing at the UofT).
+
+<br><br>
 
 My research interests lie at the intersection of theoretical linguistics and efficient LLM. Specifically:
 
-- Categorial Grammar and formal languages 
-- Efficient LLM training, including:
-  - Distributed systems and infrastructure
-  - Parameter-efficient fine-tuning
-  - Long-context modeling
-  - Lightweight Mixture-of-Experts (MoE) models
+<ul>
+  <li>Categorial Grammar and formal languages</li>
+  <li>Efficient LLM training, including:
+    <ul>
+      <li>Distributed systems and infrastructure</li>
+      <li>Parameter-efficient fine-tuning</li>
+      <li>Long-context modeling</li>
+      <li>Lightweight Mixture-of-Experts (MoE) models</li>
+    </ul>
+  </li>
+</ul>
 
 I’m currently exploring RL, as I believe RLHF and robotics hold potential for the future.
 
-I’m also an educational content creator focused on research papers sharing and explaining AI concepts to a broader audience. I have over **7,000+** followers, and most of my followers are STEM university students around the world.
+<br>
 
+I’m also an educational content creator focused on research paper sharing and explaining AI concepts to a broader audience. I have over <strong>7,000+</strong> followers, and most of them are STEM university students around the world.
+</div>
 
 ## 🔥 News
 
