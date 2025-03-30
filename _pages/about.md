@@ -8,19 +8,21 @@ redirect_from:
 ---
 
 <div style="font-size: 14px; font-family: 'Arial';">
-I am a PhD candidate in the Department of Computer Science at the University of Toronto, supervised by Prof. Gerald Penn. I completed my undergraduate degree at UofT as well, where I was awarded the <strong>Rose Sheinin Award</strong> (UofT's highest-performing female science student) and was nominated for the <strong>Governor General’s Silver Medal</strong> (highest academic standing at the UofT).
+  <p>
+    I am a PhD candidate in the Department of Computer Science at the University of Toronto, supervised by Prof. Gerald Penn. I completed my undergraduate degree at UofT as well, where I was awarded the <strong>Rose Sheinin Award</strong> (UofT's highest-performing female science student) and was nominated for the <strong>Governor General’s Silver Medal</strong> (highest academic standing at the UofT).
+  </p>
 
-<br><br>
+  <p>
+    My research interests lie primarily in Categorial Grammar and efficient LLM training from multiple perspectives, including distributed systems, parameter-efficient fine-tuning, long-context modeling, and lightweight Mixture-of-Experts (MoE) architectures.
+  </p>
 
-My research interests lie primarily in Categorial Grammar and efficient LLM training from multiple perspectives, including distributed systems, parameter-efficient fine-tuning, long-context modeling, and lightweight Mixture-of-Experts (MoE) architectures.
+  <p>
+    I’m currently exploring RL, as I believe RLHF and robotics hold potential for the future.
+  </p>
 
-I’m currently exploring RL, as I believe RLHF and robotics hold potential for the future.
-
-<br>
-
-
-I’m also an educational content creator focused on research paper sharing and explaining AI concepts to a broader audience. I have over <strong>7,000+</strong> followers, and most of them are STEM university students around the world.
-
+  <p>
+    I’m also an educational content creator focused on research paper sharing and explaining AI concepts to a broader audience. I have over <strong>7,000+</strong> followers, and most of them are STEM university students around the world.
+  </p>
 </div>
 
 ## 🔥 News
