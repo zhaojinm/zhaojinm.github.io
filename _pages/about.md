@@ -7,24 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-<div style="font-size: 12px; font-family: 'Arial';">
+<div style="font-size: 14px; font-family: 'Arial';">
 I am a PhD candidate in the Department of Computer Science at the University of Toronto, supervised by Prof. Gerald Penn. I completed my undergraduate degree at UofT as well, where I was awarded the <strong>Rose Sheinin Award</strong> (UofT's highest-performing female student graduating from a science program) and was nominated for the <strong>Governor General’s Silver Medal</strong> (highest academic standing at the UofT).
 
 <br><br>
 
-My research interests lie at the intersection of theoretical linguistics and efficient LLM. Specifically:
-
-<ul>
-  <li>Categorial Grammar and formal languages</li>
-  <li>Efficient LLM training, including:
-    <ul>
-      <li>Distributed systems and infrastructure</li>
-      <li>Parameter-efficient fine-tuning</li>
-      <li>Long-context modeling</li>
-      <li>Lightweight Mixture-of-Experts (MoE) models</li>
-    </ul>
-  </li>
-</ul>
+My research interests lie primarily in Categorial Grammar and efficient LLM training from multiple perspectives, including distributed systems, parameter-efficient fine-tuning, long-context modeling, and lightweight Mixture-of-Experts (MoE) architectures.
 
 I’m currently exploring RL, as I believe RLHF and robotics hold potential for the future.
 
@@ -35,10 +23,13 @@ I’m also an educational content creator focused on research paper sharing and 
 
 ## 🔥 News
 
-- __2025.03__ 🎉 I serve as an **Area Chair** for the Reasoning and Planning for LLMs workshop @ ICLR 2025.
-- __2025.03__ 🎉 One paper is accepted at ICME 2025.
-- __2024.12__ 🏅 One paper is accepted at IPDPS 2025 and nominated as **best paper**！
-- __2024.11__ 🎉 One paper is accepted at COLING 2025.
-- __2024.10__ 🎉 One paper is accepted at EMNLP Findings 2024.
-- __2024.07__ 🎉 One paper is accepted at COLM 2024.
-- __2024.03__ 🎉 One paper is accepted at COLING 2024.
+<div style="font-size: 12px; font-family: 'Arial';">
+- <i>2025.03</i> 🎉 I serve as an <strong>Area Chair</strong> for the Reasoning and Planning for LLMs workshop @ ICLR 2025.<br>
+- <i>2025.03</i> 🎉 One paper is accepted at ICME 2025.<br>
+- <i>2024.12</i> 🏅 One paper is accepted at IPDPS 2025 and nominated as <strong>best paper</strong>！<br>
+- <i>2024.11</i> 🎉 One paper is accepted at COLING 2025.<br>
+- <i>2024.10</i> 🎉 One paper is accepted at EMNLP Findings 2024.<br>
+- <i>2024.07</i> 🎉 One paper is accepted at COLM 2024.<br>
+- <i>2024.03</i> 🎉 One paper is accepted at COLING 2024.<br>
+</div>
+
