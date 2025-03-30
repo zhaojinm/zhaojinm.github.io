@@ -12,9 +12,16 @@ redirect_from:
     I am a PhD candidate in the Department of Computer Science at the University of Toronto, supervised by Prof. Gerald Penn. I completed my undergraduate degree at UofT as well, where I was awarded the <strong>Rose Sheinin Award</strong> (UofT's highest-performing female science student) and was nominated for the <strong>Governor General’s Silver Medal</strong> (highest academic standing at the UofT).
   </p>
 
-  <p>
-    My research interests lie primarily in Categorial Grammar and efficient LLM training from multiple perspectives, including distributed systems, parameter-efficient fine-tuning, long-context modeling, and lightweight Mixture-of-Experts (MoE) architectures.
-  </p>
+<p>
+  My research interests lie primarily in:
+  <br>– <strong>Categorial Grammar</strong> and formal grammar
+  <br>– <strong>Efficient LLM training</strong>, including:
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;• Distributed systems and infrastructure  
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;• Parameter-efficient fine-tuning  
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;• Long-context modeling  
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;• Lightweight Mixture-of-Experts (MoE) architectures
+  <br>– <strong>Safety/Fairness in AI
+</p>
 
   <p>
     I’m currently exploring RL, as I believe RLHF and robotics hold potential for the future.
