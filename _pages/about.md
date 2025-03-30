@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-<span style="font-size: 10px; font-family: 'Arial';">
-I am a PhD candidate in the Department of Computer Science at the University of Toronto, supervised by Prof. Gerald Penn. I completed my undergraduate degree at UofT as well, where I was awarded the **Rose Sheinin Award** (UofT's highest-performing female student graduating from a science program) and was nominated for the **Governor General’s Silver Medal** (highest academic standing at the UofT).
+<span style="font-size: 8px; font-family: 'Arial';">
+I am a PhD candidate in the Department of Computer Science at the University of Toronto, supervised by Prof. Gerald Penn. I completed my undergraduate degree at UofT as well, where I was awarded the **Rose Sheinin Award** (UofT's highest-performing female student graduating from a science program) and was nominated for the **Governor General’s Silver Medal** (highest academic standing at the UofT).</span>
 
 My research interests lie at the intersection of theoretical linguistics and efficient LLM. Specifically:
 
@@ -23,7 +23,7 @@ I’m currently exploring RL, as I believe RLHF and robotics hold potential for 
 
 I’m also an educational content creator focused on research papers sharing and explaining AI concepts to a broader audience. I have over **7,000+** followers, and most of my followers are STEM university students around the world.
 
-</span>
+
 ## 🔥 News
 
 - __2025.03__ 🎉 I serve as an **Area Chair** for the Reasoning and Planning for LLMs workshop @ ICLR 2025.
