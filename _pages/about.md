@@ -14,13 +14,13 @@ redirect_from:
 
 <p>
   My research interests lie primarily in:
-  <br>– Categorial Grammar and formal grammar
-  <br>– Efficient LLM training, including:
-  <br>&nbsp;&nbsp;&nbsp;&nbsp;• Distributed systems and infrastructure  
-  <br>&nbsp;&nbsp;&nbsp;&nbsp;• Parameter-efficient fine-tuning  
-  <br>&nbsp;&nbsp;&nbsp;&nbsp;• Long-context modeling  
-  <br>&nbsp;&nbsp;&nbsp;&nbsp;• Lightweight Mixture-of-Experts (MoE) architectures
-  <br>– Safety/Fairness in AI
+  <br>• Categorial Grammar and Formal Language
+  <br>• Efficient LLM training, including:
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Distributed systems and infrastructure  
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Parameter-efficient fine-tuning  
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Long-context modeling  
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Lightweight Mixture-of-Experts (MoE) architectures
+  <br>• Safety/Fairness in AI
 </p>
 
   <p>
