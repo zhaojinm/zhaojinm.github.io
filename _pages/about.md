@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-<div style="font-size: 14px; font-family: 'Arial';">
-  <p>
+#<div style="font-size: 14px; font-family: 'Arial';">
+#  <p>
     I am a PhD candidate in the Department of Computer Science at the University of Toronto, supervised by Prof. Gerald Penn. I completed my undergraduate degree at UofT as well, where I was awarded the <strong>Rose Sheinin Award</strong> (UofT's highest-performing female science student) and was nominated for the <strong>Governor General’s Silver Medal</strong> (highest academic standing at the UofT).
-  </p>
+#  </p>
 
 <p>
   My research interests lie primarily in:
