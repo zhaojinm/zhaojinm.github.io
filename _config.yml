@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Jinman Zhao"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : # "Short biography for the left-hand sidebar"
   location         : #
   employer         : #
   uri              : # URL
