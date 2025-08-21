@@ -35,6 +35,7 @@ redirect_from:
 ## 🔥 News
 
 <div style="font-size: 14px; font-family: 'Arial';">
+- <i>2025.08</i> 🎉 Our new paper, "Tiny Budgets, Big Gains: Parameter Placement Strategy in Parameter Super-Efficient Fine-Tuning", is accepted for presentation at the Main Conference for EMNLP 2025.<br>
 - <i>2025.07</i> 🎉 One paper is accepted at COLM 2025.<br>
 - <i>2025.05</i> 🎉 Four paper is accepted at ACL 2025.<br>
 - <i>2025.03</i> 🎉 I serve as an <strong>Area Chair</strong> for the Reasoning and Planning for LLMs workshop @ ICLR 2025.<br>
