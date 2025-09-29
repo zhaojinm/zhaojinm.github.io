@@ -21,6 +21,7 @@ redirect_from:
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Long-context modeling  
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Lightweight Mixture-of-Experts (MoE) architectures
   <br>• Safety/Fairness in AI
+  <br>• RLHF and Posttrain for reasoning and agent.
 </p>
 
   <p>
