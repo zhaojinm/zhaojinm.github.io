@@ -36,9 +36,10 @@ redirect_from:
 ## 🔥 News
 
 <div style="font-size: 14px; font-family: 'Arial';">
-- <i>2025.08</i> 🎉 Our new paper, <i>Tiny Budgets, Big Gains: Parameter Placement Strategy in Parameter Super-Efficient Fine-Tuning</i>, is accepted for presentation at the Main Conference for EMNLP 2025.<br>
+- <i>2025.11</i> 🎉 Our new paper, <i>Beyond Step Pruning: Information Theory Based Step-level Optimization for Self-Refining Large Language Models</i>, is accepted at AAAI 2026.<br>
+- <i>2025.08</i> 🎉 Our new paper, <i>Tiny Budgets, Big Gains: Parameter Placement Strategy in Parameter Super-Efficient Fine-Tuning</i>, is accepted at EMNLP 2025 Main.<br>
 - <i>2025.07</i> 🎉 One paper is accepted at COLM 2025.<br>
-- <i>2025.05</i> 🎉 Four paper is accepted at ACL 2025.<br>
+- <i>2025.05</i> 🎉 Four paper are accepted at ACL 2025.<br>
 - <i>2025.03</i> 🎉 I serve as an <strong>Area Chair</strong> for the Reasoning and Planning for LLMs workshop @ ICLR 2025.<br>
 - <i>2025.03</i> 🎉 One paper is accepted at TrustNLP@NAACL 2025.<br>
 - <i>2025.03</i> 🎉 One paper is accepted at ICME 2025.<br>
