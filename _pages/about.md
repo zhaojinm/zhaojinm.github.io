@@ -36,7 +36,7 @@ redirect_from:
 ## 🔥 News
 
 <div style="font-size: 14px; font-family: 'Arial';">
-- <i>2026.01</i> 🎉 One paper is accepted at CVPR 2026.<br>
+- <i>2026.02</i> 🎉 One paper is accepted at CVPR 2026.<br>
 - <i>2026.01</i> 🎉 One paper is accepted at ICLR 2026.<br>
 - <i>2025.11</i> 🎉 Our new paper, <i>Beyond Step Pruning: Information Theory Based Step-level Optimization for Self-Refining Large Language Models</i>, is accepted at AAAI 2026.<br>
 - <i>2025.08</i> 🎉 Our new paper, <i>Tiny Budgets, Big Gains: Parameter Placement Strategy in Parameter Super-Efficient Fine-Tuning</i>, is accepted at EMNLP 2025 Main.<br>
