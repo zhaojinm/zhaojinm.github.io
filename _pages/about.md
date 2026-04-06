@@ -47,9 +47,9 @@ redirect_from:
 - <i>2025.03</i> 🎉 One paper is accepted at TrustNLP@NAACL 2025.<br>
 - <i>2025.03</i> 🎉 One paper is accepted at ICME 2025.<br>
 - <i>2024.12</i> 🏅 One paper is accepted at IPDPS 2025 and nominated as <strong>best paper</strong>！<br>
-- <i>2024.11</i> 🎉 One paper is accepted at COLING 2025.<br>
+<!-- - <i>2024.11</i> 🎉 One paper is accepted at COLING 2025.<br>
 - <i>2024.10</i> 🎉 One paper is accepted at EMNLP 2024.<br>
 - <i>2024.07</i> 🎉 One paper is accepted at COLM 2024.<br>
-- <i>2024.03</i> 🎉 One paper is accepted at COLING 2024.<br>
+- <i>2024.03</i> 🎉 One paper is accepted at COLING 2024.<br> -->
 </div>
 
