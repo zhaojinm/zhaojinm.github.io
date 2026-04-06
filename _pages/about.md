@@ -36,12 +36,13 @@ redirect_from:
 ## 🔥 News
 
 <div style="font-size: 14px; font-family: 'Arial';">
+- <i>2026.04</i> 🎉 Three papers are accepted at ACL 2026. One main and two Findings.<br>
 - <i>2026.02</i> 🎉 One paper is accepted at CVPR 2026.<br>
 - <i>2026.01</i> 🎉 One paper is accepted at ICLR 2026.<br>
 - <i>2025.11</i> 🎉 Our new paper, <i>Beyond Step Pruning: Information Theory Based Step-level Optimization for Self-Refining Large Language Models</i>, is accepted at AAAI 2026.<br>
 - <i>2025.08</i> 🎉 Our new paper, <i>Tiny Budgets, Big Gains: Parameter Placement Strategy in Parameter Super-Efficient Fine-Tuning</i>, is accepted at EMNLP 2025 Main.<br>
 - <i>2025.07</i> 🎉 One paper is accepted at COLM 2025.<br>
-- <i>2025.05</i> 🎉 Four paper are accepted at ACL 2025.<br>
+- <i>2025.05</i> 🎉 Four papers are accepted at ACL 2025.<br>
 - <i>2025.03</i> 🎉 I serve as an <strong>Area Chair</strong> for the Reasoning and Planning for LLMs workshop @ ICLR 2025.<br>
 - <i>2025.03</i> 🎉 One paper is accepted at TrustNLP@NAACL 2025.<br>
 - <i>2025.03</i> 🎉 One paper is accepted at ICME 2025.<br>
