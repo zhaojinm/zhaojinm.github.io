@@ -520,7 +520,7 @@ redirect_from:
     });
   });
 
-  // Intercept anchor clicks anywhere on the page (e.g. top masthead) that jump into pub sections
+  /* Intercept anchor clicks anywhere on the page (e.g. top masthead) that jump into pub sections */
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a[href*="#"]');
     if (!a || a.closest('.pub-nav')) return;
@@ -538,7 +538,7 @@ redirect_from:
     }
   });
 
-  // Toggle is-stuck class when the sticky nav actually pins to top offset
+  /* Toggle is-stuck class when the sticky nav actually pins to top offset */
   function updateStuck() {
     var mastheadH = mastheadEl ? mastheadEl.getBoundingClientRect().height : 70;
     var rect = nav.getBoundingClientRect();
@@ -552,7 +552,7 @@ redirect_from:
   window.addEventListener('resize', updateStuck);
   updateStuck();
 
-  // If page loads with a hash, scroll with offset applied
+  /* If page loads with a hash, scroll with offset applied */
   if (window.location.hash) {
     setTimeout(function () {
       scrollToSection(window.location.hash.slice(1));
