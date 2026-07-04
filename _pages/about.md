@@ -366,6 +366,92 @@ redirect_from:
       white-space: normal;
     }
   }
+
+  /* Dark mode overrides */
+  html[data-theme="dark"] .home-intro .intro-list {
+    background: rgba(255, 255, 255, 0.04);
+    border-left-color: #8ab0ff;
+  }
+
+  html[data-theme="dark"] .home-intro .intro-list li::before {
+    color: #8ab0ff;
+  }
+
+  html[data-theme="dark"] .news-list span {
+    color: #cfd6df;
+  }
+
+  html[data-theme="dark"] .pub-nav {
+    background: var(--global-bg-color);
+  }
+
+  html[data-theme="dark"] .pub-nav a {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.15);
+    color: #e6ecf3;
+    box-shadow: none;
+  }
+
+  html[data-theme="dark"] .pub-nav a:hover,
+  html[data-theme="dark"] .pub-nav a:focus-visible {
+    border-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+  }
+
+  html[data-theme="dark"] .pub-nav a.is-active {
+    background: #c25256;
+    border-color: #c25256;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(194, 82, 86, 0.35);
+  }
+
+  html[data-theme="dark"] .pub-nav.is-stuck {
+    border-bottom-color: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 4px 10px -8px rgba(0, 0, 0, 0.6);
+  }
+
+  html[data-theme="dark"] .paper-card {
+    border-color: rgba(255, 255, 255, 0.1);
+    border-left-color: #6d84a8;
+    background: linear-gradient(90deg, #4d4d4d 0%, #4d4d4d 72%, #454f5e 100%);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  }
+
+  html[data-theme="dark"] .paper-card h4 {
+    color: #f0f3f7;
+  }
+
+  html[data-theme="dark"] .paper-card p {
+    color: #c9d0d9;
+  }
+
+  html[data-theme="dark"] .paper-card p strong {
+    color: #f0a6a9;
+  }
+
+  html[data-theme="dark"] .venue {
+    background: rgba(126, 149, 214, 0.22);
+    color: #cfd8ff;
+  }
+
+  html[data-theme="dark"] .venue.preprint {
+    background: rgba(214, 170, 90, 0.22);
+    color: #ffdc9a;
+  }
+
+  html[data-theme="dark"] .publication-areas h3 {
+    color: #f0a6a9;
+    border-bottom-color: #b06f4a;
+  }
+
+  html[data-theme="dark"] .pub-legend {
+    color: #b8bfc7;
+  }
+
+  html[data-theme="dark"] .pub-legend .legend-mark {
+    background: rgba(255, 255, 255, 0.1);
+    color: #e6ecf3;
+  }
 </style>
 
 <script>
@@ -390,38 +476,33 @@ redirect_from:
     if (map[id]) map[id].classList.add('is-active');
   }
 
-  if ('IntersectionObserver' in window) {
-    var visible = {};
-    var observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        visible[entry.target.id] = entry.isIntersecting ? entry.intersectionRatio : 0;
-      });
-      var topId = null;
-      var topScore = -1;
-      sections.forEach(function (sec) {
-        var score = visible[sec.id] || 0;
-        if (score > topScore) { topScore = score; topId = sec.id; }
-      });
-      if (topId && topScore > 0) setActive(topId);
-    }, { rootMargin: '-30% 0px -55% 0px', threshold: [0, 0.25, 0.5, 0.75, 1] });
-    sections.forEach(function (sec) { observer.observe(sec); });
-  } else {
-    // Fallback: scroll-based
-    window.addEventListener('scroll', function () {
-      var y = window.scrollY + window.innerHeight * 0.35;
-      var current = sections[0].id;
-      sections.forEach(function (sec) {
-        if (sec.offsetTop <= y) current = sec.id;
-      });
-      setActive(current);
-    }, { passive: true });
+  var mastheadEl = document.querySelector('.masthead');
+  function updateActive() {
+    var mastheadH = mastheadEl ? mastheadEl.getBoundingClientRect().height : 70;
+    var navH = nav.getBoundingClientRect().height;
+    var triggerY = mastheadH + navH + 24;
+    var current = null;
+    for (var i = 0; i < sections.length; i++) {
+      var rect = sections[i].getBoundingClientRect();
+      if (rect.top <= triggerY) {
+        current = sections[i].id;
+      } else {
+        break;
+      }
+    }
+    if (!current && sections.length && sections[0].getBoundingClientRect().top < window.innerHeight) {
+      current = sections[0].id;
+    }
+    if (current) setActive(current);
   }
+  window.addEventListener('scroll', updateActive, { passive: true });
+  window.addEventListener('resize', updateActive);
+  updateActive();
 
   function scrollToSection(id) {
     var target = document.getElementById(id);
     if (!target) return false;
-    var masthead = document.querySelector('.masthead');
-    var mastheadH = masthead ? masthead.getBoundingClientRect().height : 70;
+    var mastheadH = mastheadEl ? mastheadEl.getBoundingClientRect().height : 70;
     var navH = nav.getBoundingClientRect().height;
     var y = target.getBoundingClientRect().top + window.pageYOffset - mastheadH - navH - 14;
     window.scrollTo({ top: y, behavior: 'smooth' });
@@ -458,7 +539,6 @@ redirect_from:
   });
 
   // Toggle is-stuck class when the sticky nav actually pins to top offset
-  var mastheadEl = document.querySelector('.masthead');
   function updateStuck() {
     var mastheadH = mastheadEl ? mastheadEl.getBoundingClientRect().height : 70;
     var rect = nav.getBoundingClientRect();
