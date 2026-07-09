@@ -34,8 +34,9 @@ redirect_from:
 
 <div class="news-list">
   <ul>
-    <li><span>Apr. 2026:</span> 🎉 Three papers are accepted at ACL 2026, one main conference and two Findings.</li>
+    <li><span>Jul. 2026:</span> 🎉 One paper is accepted at COLM 2026.</li>
     <li><span>Apr. 2026:</span> 🎉 One paper is accepted at ICML 2026.</li>
+    <li><span>Apr. 2026:</span> 🎉 Three papers are accepted at ACL 2026, one main conference and two Findings.</li>
     <li><span>Feb. 2026:</span> 🎉 One paper is accepted at CVPR 2026.</li>
     <li><span>Jan. 2026:</span> 🎉 One paper is accepted at ICLR 2026.</li>
     <li><span>Nov. 2025:</span> 🎉 One paper is accepted at AAAI 2026.</li>
