@@ -20,7 +20,7 @@ redirect_from:
 
   <ul class="intro-list">
     <li><strong>Efficient LLMs and ML systems</strong> — PEFT, long-context modeling, model merging, and infrastructure</li>
-    <li><strong>Evaluation and alignment</strong> — post-training, agents, interpretability, and reliability</li>
+    <li><strong>LLM evaluation and alignment</strong> — reasoning, interpretability, agentic systems, and reliability</li>
     <li><strong>Mathematical linguistics</strong> — substructural logic, parsing complexity, and linguistic structure</li>
   </ul>
 
@@ -125,7 +125,7 @@ redirect_from:
       <article class="paper-card"><div><h4>Video-to-Audio Generation with Diffusion Transformer and Semantic-Temporal Alignment-Ranked DPO</h4><p>K. Wang, T. Zhou, J. Lei, J. Wang, <strong>J. Zhao</strong> and 8 others</p></div><span class="venue">CVPR 2026</span></article>
       <article class="paper-card"><div><h4>Teaching VLMs to Admit Uncertainty in OCR on Visually Degraded Documents</h4><p>S. Guan, M. Lin, C. Xu, <strong>J. Zhao</strong>, D. Greene</p></div><span class="venue">ICLR 2026</span></article>
       <article class="paper-card"><div><h4>PreP-OCR: A Complete Pipeline for Document Image Restoration and Enhanced OCR Accuracy</h4><p>S. Guan, M. Lin, C. Xu, X. Liu, <strong>J. Zhao</strong>, J. Fan, Q. Xu, D. Greene</p></div><span class="venue">ACL 2025</span></article>
-      <article class="paper-card"><div><h4>From Plausible to Grounded: Reinforcing Structured Consistency in Video MLLMs</h4><p>Y. Quan, Z. Shi, <strong>J. Zhao</strong> and R. Tang</p></div><span class="venue preprint">Preprint</span></article>
+      <article class="paper-card"><div><h4>From Plausible to Grounded: Reinforcing Structured Consistency in Video MLLMs</h4><p>Y. Quan, Z. Shi, <strong>J. Zhao</strong> and R. Tang</p></div><span class="venue">COLM 2026</span></article>
       <article class="paper-card"><div><h4>Learning Action Priors for Cross-embodiment Robot Manipulation</h4><p>D. Jing, T. Zhang, J. Liu, <strong>J. Zhao</strong>, Z. Sun, L. E. Li, Z. Lu, M. Ding</p></div><span class="venue preprint">Preprint</span></article>
       <article class="paper-card"><div><h4>Mitigating Hallucinations in Video Large Language Models via Spatiotemporal-Semantic Contrastive Decoding</h4><p>Y. Gao, <strong>J. Zhao</strong>, T. Zhang, X. Xu, H. Bao, Z. Wang, W. Chen</p></div><span class="venue preprint">Preprint</span></article>
     </div>
