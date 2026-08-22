@@ -9,10 +9,10 @@ redirect_from:
 
 <div class="home-intro">
   <p>
-    I am a Ph.D. candidate in the Department of Computer Science at the University of
-    Toronto, advised by <a href="https://www.cs.toronto.edu/~gpenn/">Prof. Gerald Penn</a>.
-    I completed my undergraduate degree at the University of Toronto, where I received the
-    <strong>Rose Sheinin Award</strong> and was nominated for the
+    I will soon join Weill Cornell Medicine as a postdoctoral researcher. I received my
+    Ph.D. in Computer Science from the University of Toronto under the supervision of
+    <a href="https://www.cs.toronto.edu/~gpenn/">Prof. Gerald Penn</a>. I also completed my
+    undergraduate studies there, receiving the <strong>Rose Sheinin Award</strong> and a nomination for the
     <strong>Governor General's Silver Medal</strong>.
   </p>
 
@@ -34,6 +34,7 @@ redirect_from:
 
 <div class="news-list">
   <ul>
+    <li><span>Aug. 2026:</span> 🎉 Four papers are accepted at EMNLP 2026, two main conference and two Findings.</li>
     <li><span>Jul. 2026:</span> 🎉 One paper is accepted at COLM 2026.</li>
     <li><span>Apr. 2026:</span> 🎉 One paper is accepted at ICML 2026.</li>
     <li><span>Apr. 2026:</span> 🎉 Three papers are accepted at ACL 2026, one main conference and two Findings.</li>
@@ -51,58 +52,56 @@ redirect_from:
 <p class="pub-legend"><span class="legend-item"><span class="legend-mark">*</span>Equal contribution</span><span class="legend-item"><span class="legend-mark">&dagger;</span>Corresponding author</span></p>
 
 <nav class="pub-nav" aria-label="Publication categories">
-  <a href="#pub-efficient-llm">Efficient LLMs</a>
-  <a href="#pub-systems">Systems</a>
-  <a href="#pub-llm-post-training">LLM Post-training</a>
+  <a href="#pub-efficient-llm">Efficiency &amp; Systems</a>
+  <a href="#pub-post-training">Post-training</a>
   <a href="#pub-formal-grammar">Formal Grammar</a>
   <a href="#pub-eval">Evaluation</a>
-  <a href="#pub-multimodal">Multimodal</a>
+  <a href="#pub-others">Others</a>
 </nav>
 
 <div class="publication-areas">
   <section id="pub-efficient-llm">
-    <h3>Efficient · Structured LLMs</h3>
+    <h3>Efficient LLMs · Systems · Compilers</h3>
     <div class="paper-list">
+      <article class="paper-card"><div><h4>VideoNav: Cost-Aware Index Navigation for Long Video Understanding</h4><p>Y. Hui, Y. Li, R. Kong, X. Chen, <strong>J. Zhao</strong>, D. Yin, H. Zhang</p></div><span class="venue">EMNLP Findings 2026</span></article>
       <article class="paper-card"><div><h4>Beyond Step Pruning: Information Theory Based Step-level Optimization for Self-Refining LLMs</h4><p><strong>J. Zhao</strong>, E. Xue, H. Wu, Z. Li, Z. Sun, S. Wang, X. Chen, G. Penn</p></div><span class="venue">AAAI 2026</span></article>
       <article class="paper-card"><div><h4>On the Representation Geometry of LoRA Model Merging</h4><p>C. Lu, J. Li, <strong>J. Zhao</strong><sup>†</sup>, X. Chen, Y. Wang, R. Cai, Y. Li, C. He</p></div><span class="venue">ACL Findings 2026</span></article>
       <article class="paper-card"><div><h4>Tiny Budgets, Big Gains: Parameter Placement Strategy in Parameter Super-Efficient Fine-Tuning</h4><p><strong>J. Zhao</strong>, X. Zhang, J. Li, J. Niu, Y. Hu, E. Min, G. Penn</p></div><span class="venue">EMNLP 2025</span></article>
       <article class="paper-card"><div><h4>UORA: Uniform Orthogonal Reinitialization Adaptation in PEFT of Large Models</h4><p>X. Zhang<sup>*</sup>, <strong>J. Zhao</strong><sup>*†</sup>, Y. Zhong, S. Guan, L. Cao, Y. Wang</p></div><span class="venue">ACL 2025</span></article>
       <article class="paper-card"><div><h4>Low-Rank Interconnected Adaptation across Layers</h4><p>Y. Zhong, <strong>J. Zhao</strong>, Y. Zhou</p></div><span class="venue">ACL Findings 2025</span></article>
       <article class="paper-card"><div><h4>LongRecipe: Recipe for Efficient Long Context Generalization in Large Language Models</h4><p>Z. Hu, Y. Liu, <strong>J. Zhao</strong>, S. Wang, Y. Wang, W. Shen, Q. Gu, A. Luu, S. Ng, Z. Jiang and B. Hooi</p></div><span class="venue">ACL 2025</span></article>
-      <article class="paper-card"><div><h4>CARE-Muon: Conflict-Aware Energy Redistribution via Long- and Short-Term Momentum</h4><p><strong>J. Zhao</strong> et al.</p></div><span class="venue preprint">In progress</span></article>
-      <article class="paper-card"><div><h4>BoostMerge: Headroom-Weighted Residual Refinement for Model Merging</h4><p>J. Huang and 5 others and <strong>J. Zhao</strong><sup>†</sup></p></div><span class="venue preprint">Preprint</span></article>
-    </div>
-  </section>
-
-  <section id="pub-systems">
-    <h3>Systems · Compilers · ML Infrastructure</h3>
-    <div class="paper-list">
       <article class="paper-card"><div><h4>PolyMorphous: An MLIR-Based Polyhedral Compiler with Loop Transformation Primitives <span class="award-badge">🏆 Best Paper Nominee</span></h4><p><strong>J. Zhao</strong>, S. A. Vahabpour, X. Yue, K.-T. A. Wang and T. S. Abdelrahman</p></div><span class="venue">IPDPS 2025</span></article>
+      <article class="paper-card"><div><h4>TARE-Muon: Timescale-Aware Row-wise Energy Redistribution for Muon</h4><p><strong>J. Zhao</strong> et al.</p></div><span class="venue preprint">Preprint</span></article>
+      <article class="paper-card"><div><h4>BoostMerge: Headroom-Weighted Residual Refinement for Model Merging</h4><p>J. Huang and 5 others and <strong>J. Zhao</strong><sup>†</sup></p></div><span class="venue preprint">Preprint</span></article>
       <article class="paper-card"><div><h4>Fusion R1: Empower PyTorch Graph Fusion via LLM with Reinforcement Learning</h4><p>X. Zhang, J. Huang, Y. Ding, S. Guan, Y. Wang, Y. Li, <strong>J. Zhao</strong><sup>†</sup>, G. Penn</p></div><span class="venue preprint">Preprint</span></article>
     </div>
   </section>
 
-  <section id="pub-llm-post-training">
-    <h3>LLM Post-training · Reasoning · Agents</h3>
+  <section id="pub-post-training">
+    <h3>Post-training · Reasoning · Agents</h3>
     <div class="paper-list">
+      <article class="paper-card"><div><h4>Not All Preferences Are Created Equal: Stability-Aware and Gradient-Efficient Alignment for Reasoning Models</h4><p>H. Wu, H. Cai, <strong>J. Zhao</strong>, X. Chen, Z. Li, Z. Zhao, S. Wang, Y. Li, D. Yin</p></div><span class="venue">EMNLP 2026</span></article>
+      <article class="paper-card"><div><h4>Act More, Decide Less: Skill-Guided Adaptive Action Chunking for Long-Horizon LLM Agents</h4><p>Y. Yang, C. Jin, <strong>J. Zhao</strong>, J. Wu, Y. Zhou, Z. Wang, Z. Wang, M. Zhou, D. Metaxas</p></div><span class="venue">EMNLP Findings 2026</span></article>
+      <article class="paper-card"><div><h4>From Plausible to Grounded: Reinforcing Structured Consistency in Video MLLMs</h4><p>Y. Quan, Z. Shi, <strong>J. Zhao</strong> and R. Tang</p></div><span class="venue">COLM 2026</span></article>
       <article class="paper-card"><div><h4>CodeHacker: Automated Test Case Generation for Detecting Vulnerabilities in Competitive Programming Solutions <span class="award-badge">🎤 Oral</span></h4><p>J. Shi, X. Yin, J. Huang, S. Tao and <strong>J. Zhao</strong><sup>†</sup></p></div><span class="venue">ACL 2026</span></article>
+      <article class="paper-card"><div><h4>Video-to-Audio Generation with Diffusion Transformer and Semantic-Temporal Alignment-Ranked DPO</h4><p>K. Wang, T. Zhou, J. Lei, J. Wang, <strong>J. Zhao</strong> and 8 others</p></div><span class="venue">CVPR 2026</span></article>
+      <article class="paper-card"><div><h4>Teaching VLMs to Admit Uncertainty in OCR on Visually Degraded Documents</h4><p>S. Guan, M. Lin, C. Xu, <strong>J. Zhao</strong>, D. Greene</p></div><span class="venue">ICLR 2026</span></article>
       <article class="paper-card"><div><h4>Beyond Step Pruning: Information Theory Based Step-level Optimization for Self-Refining LLMs</h4><p><strong>J. Zhao</strong>, E. Xue, H. Wu, Z. Li, Z. Sun, S. Wang, X. Chen, G. Penn</p></div><span class="venue">AAAI 2026</span></article>
       <article class="paper-card"><div><h4>Staying in the Sweet Spot: Responsive Reasoning Evolution via Capability-Adaptive Hint Scaffolding</h4><p>Z. Li, Z. Sun, <strong>J. Zhao</strong>, E. Min, Y. Zeng, H. Wu, H. Cai, S. Wang, D. Yin, X. Chen, Z.-H. Deng</p></div><span class="venue preprint">Preprint</span></article>
-      <article class="paper-card"><div><h4>Not All Preferences Are Created Equal: Stability-Aware and Gradient-Efficient Alignment for Reasoning Models</h4><p>H. Wu, H. Cai, <strong>J. Zhao</strong>, X. Chen, Z. Li, Z. Zhao, S. Wang, Y. Li, D. Yin</p></div><span class="venue preprint">Preprint</span></article>
-      <article class="paper-card"><div><h4>Act More, Decide Less: Skill-Guided Adaptive Action Chunking for Long-Horizon LLM Agents</h4><p>Y. Yang, C. Jin, <strong>J. Zhao</strong>, J. Wu, Y. Zhou, Z. Wang, Z. Wang, M. Zhou, D. Metaxas</p></div><span class="venue preprint">Preprint</span></article>
+      <article class="paper-card"><div><h4>Learning Action Priors for Cross-embodiment Robot Manipulation</h4><p>D. Jing, T. Zhang, J. Liu, <strong>J. Zhao</strong>, Z. Sun, L. E. Li, Z. Lu, M. Ding</p></div><span class="venue preprint">Preprint</span></article>
     </div>
   </section>
 
   <section id="pub-formal-grammar">
     <h3>Formal Grammars · Syntax · Parsing</h3>
     <div class="paper-list">
+      <article class="paper-card"><div><h4>Syntactic Prediction through Reinforcement Learning</h4><p><strong>J. Zhao</strong>, Y. Wang, J. Liu, X. Zhang, L. Cao, J. Huang, Y. Zhao, R. Cai, Y. Ding, G. Penn</p></div><span class="venue">EMNLP 2026</span></article>
       <article class="paper-card"><div><h4>An Efficient Parser for Bounded-Order Product-Free Lambek Categorial Grammar via Term Graph</h4><p><strong>J. Zhao</strong>, G. Penn</p></div><span class="venue">IWPT 2025</span></article>
       <article class="paper-card"><div><h4>Inside-Outside Algorithm for Probabilistic Product-Free Lambek Categorial Grammar</h4><p><strong>J. Zhao</strong> and G. Penn</p></div><span class="venue">COLING 2025</span></article>
       <article class="paper-card"><div><h4>Categorial Grammar Supertagging via Large Language Models</h4><p><strong>J. Zhao</strong> and G. Penn</p></div><span class="venue">EMNLP 2024</span></article>
       <article class="paper-card"><div><h4>A Generative Model for Lambek Categorial Sequents</h4><p><strong>J. Zhao</strong> and G. Penn</p></div><span class="venue">COLING 2024</span></article>
       <article class="paper-card"><div><h4>A Generative Process for Lambek Categorial Proof Nets</h4><p><strong>J. Zhao</strong> and G. Penn</p></div><span class="venue">MoL 2021</span></article>
       <article class="paper-card"><div><h4>Structural Realization with GGNNs</h4><p><strong>J. Zhao</strong>, G. Penn and H. Ling</p></div><span class="venue">TextGraphs 2021</span></article>
-      <article class="paper-card"><div><h4>Syntactic Prediction through Reinforcement Learning</h4><p><strong>J. Zhao</strong> et al.</p></div><span class="venue preprint">Preprint</span></article>
     </div>
   </section>
 
@@ -120,14 +119,10 @@ redirect_from:
     </div>
   </section>
 
-  <section id="pub-multimodal">
-    <h3>Multimodal · Vision-Language · Embodied AI</h3>
+  <section id="pub-others">
+    <h3>Others</h3>
     <div class="paper-list">
-      <article class="paper-card"><div><h4>Video-to-Audio Generation with Diffusion Transformer and Semantic-Temporal Alignment-Ranked DPO</h4><p>K. Wang, T. Zhou, J. Lei, J. Wang, <strong>J. Zhao</strong> and 8 others</p></div><span class="venue">CVPR 2026</span></article>
-      <article class="paper-card"><div><h4>Teaching VLMs to Admit Uncertainty in OCR on Visually Degraded Documents</h4><p>S. Guan, M. Lin, C. Xu, <strong>J. Zhao</strong>, D. Greene</p></div><span class="venue">ICLR 2026</span></article>
       <article class="paper-card"><div><h4>PreP-OCR: A Complete Pipeline for Document Image Restoration and Enhanced OCR Accuracy</h4><p>S. Guan, M. Lin, C. Xu, X. Liu, <strong>J. Zhao</strong>, J. Fan, Q. Xu, D. Greene</p></div><span class="venue">ACL 2025</span></article>
-      <article class="paper-card"><div><h4>From Plausible to Grounded: Reinforcing Structured Consistency in Video MLLMs</h4><p>Y. Quan, Z. Shi, <strong>J. Zhao</strong> and R. Tang</p></div><span class="venue">COLM 2026</span></article>
-      <article class="paper-card"><div><h4>Learning Action Priors for Cross-embodiment Robot Manipulation</h4><p>D. Jing, T. Zhang, J. Liu, <strong>J. Zhao</strong>, Z. Sun, L. E. Li, Z. Lu, M. Ding</p></div><span class="venue preprint">Preprint</span></article>
       <article class="paper-card"><div><h4>Mitigating Hallucinations in Video Large Language Models via Spatiotemporal-Semantic Contrastive Decoding</h4><p>Y. Gao, <strong>J. Zhao</strong>, T. Zhang, X. Xu, H. Bao, Z. Wang, W. Chen</p></div><span class="venue preprint">Preprint</span></article>
     </div>
   </section>
