@@ -9,8 +9,7 @@ redirect_from:
 
 <div class="home-intro">
   <p>
-    I will soon join Weill Cornell Medicine as a postdoctoral researcher. I received my
-    Ph.D. in Computer Science from the University of Toronto under the supervision of
+    I received my Ph.D. in Computer Science from the University of Toronto under the supervision of
     <a href="https://www.cs.toronto.edu/~gpenn/">Prof. Gerald Penn</a>. I also completed my
     undergraduate studies there, receiving the <strong>Rose Sheinin Award</strong> and a nomination for the
     <strong>Governor General's Silver Medal</strong>.
