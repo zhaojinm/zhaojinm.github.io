@@ -15,10 +15,10 @@ redirect_from:
     <strong>Governor General's Silver Medal</strong>.
   </p>
 
-  <p>My research interest is understanding and efficiently controlling LLMs:</p>
+  <p>My research interest is understanding and efficiently controlling LMs:</p>
 
   <ul class="intro-list">
-    <li><strong>Efficient LLMs and ML systems</strong> — PEFT, long-context modeling, model merging, and infrastructure</li>
+    <li><strong>Efficient NLP and ML systems</strong> — PEFT, long-context modeling, model merging, and infrastructure</li>
     <li><strong>LLM evaluation and alignment</strong> — reasoning, interpretability, agentic systems, and reliability</li>
     <li><strong>Mathematical linguistics</strong> — substructural logic, parsing complexity, and linguistic structure</li>
   </ul>
