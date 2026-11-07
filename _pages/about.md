@@ -17,7 +17,7 @@ redirect_from:
     <strong>Governor General's Silver Medal</strong>.
   </p>
 
-  <p>My research focuses on making language models more efficient, interpretable, and reliable.</p>
+  <p>My research focuses on making language and vision-language models more efficient, interpretable, and reliable.</p>
 
   <ul class="intro-list">
     <li><strong>Efficient NLP and ML systems</strong> — PEFT, long-context modeling, model merging, and infrastructure</li>
@@ -58,7 +58,6 @@ redirect_from:
   <a href="#pub-post-training">Post-training</a>
   <a href="#pub-formal-grammar">Formal Grammar</a>
   <a href="#pub-eval">Evaluation &amp; Interpretability</a>
-  <a href="#pub-others">Vision &amp; Multimodal</a>
 </nav>
 
 <div class="publication-areas">
@@ -90,6 +89,7 @@ redirect_from:
       <article class="paper-card"><div><h4>Video-to-Audio Generation with Diffusion Transformer and Semantic-Temporal Alignment-Ranked DPO</h4><p>K. Wang, T. Zhou, J. Lei, J. Wang, <strong>J. Zhao</strong> and 8 others</p></div><span class="venue">CVPR 2026</span></article>
       <article class="paper-card"><div><h4>Teaching VLMs to Admit Uncertainty in OCR on Visually Degraded Documents</h4><p>S. Guan, M. Lin, C. Xu, <strong>J. Zhao</strong>, D. Greene</p></div><span class="venue">ICLR 2026</span></article>
       <article class="paper-card"><div><h4>Beyond Step Pruning: Information Theory Based Step-level Optimization for Self-Refining LLMs</h4><p><strong>J. Zhao</strong>, E. Xue, H. Wu, Z. Li, Z. Sun, S. Wang, X. Chen, G. Penn</p></div><span class="venue">AAAI 2026</span></article>
+      <article class="paper-card"><div><h4>PreP-OCR: A Complete Pipeline for Document Image Restoration and Enhanced OCR Accuracy</h4><p>S. Guan, M. Lin, C. Xu, X. Liu, <strong>J. Zhao</strong>, J. Fan, Q. Xu, D. Greene</p></div><span class="venue">ACL 2025</span></article>
       <article class="paper-card"><div><h4>Learning Action Priors for Cross-embodiment Robot Manipulation</h4><p>D. Jing, T. Zhang, J. Liu, <strong>J. Zhao</strong>, Z. Sun, L. E. Li, Z. Lu, M. Ding</p></div><span class="venue preprint">Preprint</span></article>
     </div>
   </section>
@@ -122,13 +122,6 @@ redirect_from:
     </div>
   </section>
 
-  <section id="pub-others">
-    <h3>Vision &amp; Multimodal</h3>
-    <div class="paper-list">
-      <article class="paper-card"><div><h4>PreP-OCR: A Complete Pipeline for Document Image Restoration and Enhanced OCR Accuracy</h4><p>S. Guan, M. Lin, C. Xu, X. Liu, <strong>J. Zhao</strong>, J. Fan, Q. Xu, D. Greene</p></div><span class="venue">ACL 2025</span></article>
-      <article class="paper-card"><div><h4>Mitigating Hallucinations in Video Large Language Models via Spatiotemporal-Semantic Contrastive Decoding</h4><p>Y. Gao, <strong>J. Zhao</strong>, T. Zhang, X. Xu, H. Bao, Z. Wang, W. Chen</p></div><span class="venue preprint">Preprint</span></article>
-    </div>
-  </section>
 </div>
 
 <style>
