@@ -25,6 +25,8 @@ redirect_from:
     <li><strong>Mathematical linguistics</strong> — substructural logic, parsing complexity, and linguistic structure</li>
   </ul>
 
+  <p>I also collaborate closely with <a href="https://yiningww.github.io/">Yining Wang</a>.</p>
+
   <p>
     Beyond research, I create educational content on research papers and AI concepts for a
     broad STEM audience of more than <strong>7,000</strong> followers.
