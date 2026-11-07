@@ -13,8 +13,9 @@ redirect_from:
     <a href="https://pengyifan.com/">Prof. Yifan Peng</a>.
     I received my Ph.D. in Computer Science from the University of Toronto under the supervision of
     <a href="https://www.cs.toronto.edu/~gpenn/">Prof. Gerald Penn</a>. I also completed my
-    undergraduate studies there, receiving the <strong>Rose Sheinin Award</strong> and a nomination for the
-    <strong>Governor General's Silver Medal</strong>.
+    undergraduate studies there, receiving the <strong>Rose Sheinin Award</strong>
+    (for U of T's top graduating woman in science) and a nomination for the
+    <strong>Governor General's Silver Medal</strong> (for the highest undergraduate academic standing).
   </p>
 
   <p>My research focuses on making language and vision-language models more efficient, interpretable, and reliable.</p>
